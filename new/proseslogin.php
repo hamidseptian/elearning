@@ -24,10 +24,6 @@ if ($level_login=='admin') {
 		if ($verivikasi) {
 			$_SESSION['login']=true;
 	//	$_SESSION['id_karyawan']=$data['id_karyawan'];
-			$_SESSION['level']=$data['level'];
-			$_SESSION['id_user']=$data['id_user'];
-			$_SESSION['nama']=$data['nama'];
-			$_SESSION['foto']=$data['foto'];
 			header("Location:th2/");
 		}
 		else{
@@ -60,10 +56,6 @@ if ($level_login=='admin') {
 		if ($verivikasi) {
 			$_SESSION['login']=true;
 	//	$_SESSION['id_karyawan']=$data['id_karyawan'];
-			$_SESSION['level']=$data['level'];
-			$_SESSION['id']=$data['id'];
-			$_SESSION['nama']=$data['nama'];
-			$_SESSION['foto']=$data['foto'];
 			header("Location:th2/");
 		}
 		else{
@@ -98,10 +90,6 @@ if ($level_login=='admin') {
 		if ($verivikasi) {
 			$_SESSION['login']=true;
 	//	$_SESSION['id_karyawan']=$data['id_karyawan'];
-			$_SESSION['level']='santri';
-			$_SESSION['id_santri']=$data['id_santri'];
-			 $_SESSION['nama']=$data['nama'];
-			 $_SESSION['foto']=$data['foto'];
 			header("Location:th2/");
 		}
 		else{
