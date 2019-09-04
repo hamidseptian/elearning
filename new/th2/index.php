@@ -3,7 +3,6 @@ ini_set('display_errors', 1);
 // Atau
 error_reporting(E_ALL && ~E_NOTICE);
 
-session_start();
 date_default_timezone_set('Asia/Jakarta');
 ?>
 <!DOCTYPE html>
